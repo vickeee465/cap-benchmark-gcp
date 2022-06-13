@@ -1,0 +1,27 @@
+[
+    {
+        "name": "cycle_number",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "cycle_years_from",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cycle_years_to",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cycle_from",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cycle_to",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    }
+]

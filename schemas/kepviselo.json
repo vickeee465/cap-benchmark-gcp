@@ -1,0 +1,67 @@
+[
+    {
+        "name": "parliamentary_id",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "surname",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "first_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "birth_year",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "birth_place",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "sex",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "death_date",
+        "type": "FLOAT",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "death_place",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PERSON_POS",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "change_name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "surname_new",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "surname_from",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "id_old",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

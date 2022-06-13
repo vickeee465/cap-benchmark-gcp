@@ -1,0 +1,17 @@
+[
+    {
+        "name": "mondat_id",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "raw_text",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "text_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

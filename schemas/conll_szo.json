@@ -1,0 +1,42 @@
+[
+    {
+        "name": "szo_id",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "szoalak",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "lemma",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "entity_IOB",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "POS",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "morf_analysis",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "dependencia_el",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "mondat_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    }
+]

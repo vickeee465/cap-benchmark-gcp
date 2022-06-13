@@ -1,0 +1,17 @@
+[
+    {
+        "name": "cap_id",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "nev_angol",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "nev_magyar",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

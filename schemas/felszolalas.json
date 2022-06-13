@@ -1,0 +1,72 @@
+[
+    {
+        "name": "text_id",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "text_type",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "exact_date",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "cycle_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "parliamentary_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "text",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "napirendi_pont",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "video_felszolalas_ido",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "video_feszolalas_url",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "felszolalas_url",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "tokenszam",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "major_topic",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "COVID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "text_id_old",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]

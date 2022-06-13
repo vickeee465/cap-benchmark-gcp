@@ -1,0 +1,52 @@
+[
+    {
+        "name": "party_id",
+        "type": "INTEGER",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "party_name_full_HUN",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name_full_HUN_from",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name_full_HUN_to",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name2_full_HUN",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name2_full_HUN_from",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name2_full_HUN_to",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name3_full_HUN",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name_full3_HUN_from",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "party_name_full3_HUN_to",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    }
+]
