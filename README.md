@@ -19,7 +19,7 @@ These simple scripts can...
   * in the dialog window create a JSON key
   * place the JSON file in the same folder as the script
   * rename it to "gcp_key.json"
-* for the NLP script you have to download a HuSpaCy model
+* for the NLP script you have to download a [HuSpaCy](https://github.com/huspacy/huspacy) model
   * the larger model is recommended (hu_core_news_lg)
   * you can do this quickly the following way:
   ```
