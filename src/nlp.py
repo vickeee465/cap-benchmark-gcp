@@ -72,8 +72,8 @@ def handle_text_analysis(df: pd.DataFrame, path: str):
     # iterating through texts
     for index, row in tqdm(df.iterrows(), total=df.shape[0], desc='   ---> running NLP on text data: ', leave=True,
                            position=0):
-        # if index == 10:  # DEBUG
-        #    break  # DEBUG
+        # if index == 50:  # DEBUG
+        #     break  # DEBUG
 
         text = row['text']
         text_id = row['text_id']

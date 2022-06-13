@@ -42,7 +42,7 @@ You can modify the parameters in config.ini, which is structured the following w
 
 | parameter | expected string            |
 |-----------|---------------------------|
-| project   | GCP project name          |
+| project   | GCP project ID          |
 | bucket    | Cloud Storage bucket name |
 | dataset   | BigQuery dataset name     |
 

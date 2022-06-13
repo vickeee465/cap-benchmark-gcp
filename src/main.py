@@ -26,4 +26,4 @@ if __name__ == '__main__':
     if options_storage:
         upload_cap_data(path_jsonl, bucket)
     if options_bigquery:
-        create_cap_tables(bucket, project, dataset, path_schemas, table_dict)
+        create_cap_tables(bucket, project, dataset, path_schemas)

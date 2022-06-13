@@ -15,7 +15,7 @@ def create_dataset(dataset_uri: str):
     """
     dataset = bigquery.Dataset(dataset_uri)
     dataset.location = "US"
-    dataset = bq_client.create_dataset(dataset, timeout=30)
+    dataset = bq_client.create_dataset(dataset)
     print('   ---> dataset created successfully: ' + dataset_uri)
     return dataset
 
@@ -57,11 +57,12 @@ def create_table(src_uri: str, table_uri: str, schema: list):
     return table
 
 
-def create_cap_tables(bucket: str, project: str, dataset: str, schemas: str, table_dict: dict):
+def create_cap_tables(bucket: str, project: str, dataset: str, schemas: str):
     """
     Creates tables from files in storage bucket.
     If the dataset is missing, it creates one as well.
 
+    :param schemas: folder containing schema information
     :param bucket: Storage bucket name
     :param project: BigQuery project name
     :param dataset: BigQuery dataset name
