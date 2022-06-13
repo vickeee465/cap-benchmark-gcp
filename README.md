@@ -62,7 +62,7 @@ You can modify the parameters in config.ini, which is structured the following w
 
 
 ### Schema information
-Schema are loaded from JSON files.
+Schemas are loaded from JSON files.
 Table structure is almost identical to [cap_pilot_benchmark_xlsx_json](https://github.com/poltextlab/cap_pilot_benchmark_sql_json).
 
 #### cap_kod
